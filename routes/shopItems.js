@@ -74,16 +74,21 @@ router.patch("/:id", async (req, res) => {
 
 // delete an item from the shop
 router.delete("/:id", async (req, res) => {
-  const { id } = req.params;
+  try {
+    const { id } = req.params;
 
-  const note = await shopItemsCollection.findById(id);
+    const note = await shopItemsCollection.findById(id);
 
-  if (req.decoded.userId != note.user) {
-    res.status(401).send("You are not allowed to delete this item");
-    return;
+    if (!id) {
+      res.status(401).send("No id");
+      return;
+    }
+    await shopItemsCollection.findByIdAndDelete(id);
+    res.send("Item deleted");
+  } catch (error) {
+    console.log(error);
+    res.status(500).send("internal-server-error");
   }
-  await shopItemsCollection.findByIdAndDelete(id);
-  res.send("Item deleted");
 });
 
 module.exports = router;
