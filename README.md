@@ -50,9 +50,8 @@
 
 ### 🔑 Authentication bearer
 
-| Param | value                                                                                                                                                                                                | Type   |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| token | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZlcmEiLCJ1c2VySWQiOiI2NTFkZWQxYWEwZjg2ZGUzZDYyYjdjMmMiLCJyb2xlIjoidXNlciIsImlhdCI6MTY5NjQ2MDI0NX0.N5QNL51qrMuhVYpjvhTIfhxbJft3ZiFoxfFfj7Z6QMo | string |
+| Param | value | Type |
+| ----- | ----- | ---- |
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
@@ -107,8 +106,7 @@
 
 ### 🔑 Authentication bearer
 
-| Param | value                                                                                                                                                                                                | Type   |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| token | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZlcmEiLCJ1c2VySWQiOiI2NTFkZWQxYWEwZjg2ZGUzZDYyYjdjMmMiLCJyb2xlIjoidXNlciIsImlhdCI6MTY5NjQ2MDI0NX0.N5QNL51qrMuhVYpjvhTIfhxbJft3ZiFoxfFfj7Z6QMo | string |
+| Param | value | Type |
+| ----- | ----- | ---- |
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
